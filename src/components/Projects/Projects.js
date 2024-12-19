@@ -72,7 +72,7 @@ function Projects() {
               title="Virtual Voice Assistant"
               description="A virtual voice assistant to control the device using voice."
               ghLink="https://github.com/rahul-754/virtual-voice-assistant"
-              demoLink="virtual-voice-assistant-chi.vercel.app"
+              demoLink="https://virtual-voice-assistant-chi.vercel.app/"
             />
           </Col>
 
@@ -85,7 +85,17 @@ function Projects() {
               ghLink="https://github.com/rahul-754/Voting-App"
             />
           </Col>
-
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="To-Do App"
+              description="A password manager securely stores passwords and URLs, allowing easy access and management of login credentials for various accounts."
+              ghLink="https://github.com/rahul-754/Todo-App"
+              demoLink="https://todo-app-three-kappa-65.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cnn}
@@ -108,18 +118,7 @@ function Projects() {
           </Col>
           
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={todo}
-              isBlog={false}
-              title="To-Do App"
-              description="Trained a CNN classifier using the 'FER-2013 dataset' with Keras and TensorFlow backend. 
-                The classifier successfully predicted various types of human emotions. The highest accuracy obtained with the model was 60.1%. 
-                Then used OpenCV to detect faces in an image and pass them to the classifier to predict the emotion of a person.}"
-              ghLink="https://github.com/rahul-754/Todo-App"
-              demoLink="https://todo-app-three-kappa-65.vercel.app/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
